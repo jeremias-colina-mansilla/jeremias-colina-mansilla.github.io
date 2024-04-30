@@ -2,7 +2,7 @@
 
 .wrapper{
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background-color: #191c32;
     color: #fff;
 }
@@ -34,4 +34,17 @@
     background-color: aqua;
     color: brown;
     transition: ease-in .5s;
+}
+.main{
+    margin: o auto;
+    width: 90vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.main img{
+    width: 350px;
+    border: 7px solid skyblue;
+    height: 520;
 }
