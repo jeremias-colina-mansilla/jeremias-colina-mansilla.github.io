@@ -2,7 +2,7 @@
 
 .wrapper{
     width: 100vw;
-    height: 200vh;
+    height: 120vh;
     background-color: #191c32;
     color: #fff;
 }
@@ -22,7 +22,7 @@
 }
 .menu{
     display: flex;
-    width: 25%;
+    width: 40%;
     justify-content: space-around;
 }
 .menu a{
@@ -44,7 +44,42 @@
     align-items: center;
 }
 .main img{
-    width: 350px;
-    border: 7px solid skyblue;
+    width: 500px;
+    border: 5px solid skyblue;
     height: 520;
+}
+.main p{
+    font-size: 2em;
+}
+.main h1{
+    color: aqua;
+}
+.abaut{
+    width: 100vw;
+    height: 120vh;
+    background-color: #191c32;
+    color: #fff;
+}
+.abaut{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+.abaut img{
+    width: 75%;
+    grid-column: 1/5;
+    border: 5px solid skyblue;
+    height: 520;
+}
+.abaut-info {
+    font-size: large 40pxs;
 }
