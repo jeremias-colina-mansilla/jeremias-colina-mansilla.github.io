@@ -1,7 +1,7 @@
 
 
 .wrapper{
-    width: 100vw;
+    width: 110vw;
     height: 120vh;
     background-color: #191c32;
     color: #fff;
@@ -60,7 +60,7 @@
     grid-template-columns: repeat(10, 1fr);
     width: 100vw;
     align-items: center;
-    width: 100vw;
+    width: 110vw;
     height: 120vh;
     background-color: #191c32;
     color: #fff;
