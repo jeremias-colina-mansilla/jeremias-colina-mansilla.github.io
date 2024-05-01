@@ -23,7 +23,8 @@
 .menu{
     display: flex;
     width: 40%;
-    justify-content: space-around;
+    justify-content: left;
+    left: 100;
 }
 .menu a{
     color:  #fff;
